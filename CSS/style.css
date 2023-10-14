@@ -1,0 +1,30 @@
+body {
+    background-color:#b2c99d;
+}
+
+h1{
+    text-align: center;
+    color:black;
+
+}
+#caixa-pai {
+    position:initial;
+    background-color: #b2c99d;
+    width: 200vh;
+    height: 0vh;
+}
+#caixa-filho {
+    position:static;
+    top: 50%;
+    width: 100%;
+    border: darkgreen solid 1px;
+}
+h2{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    color:rgb(41, 63, 63);
+}
+
+
