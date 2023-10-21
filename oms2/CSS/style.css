@@ -1,0 +1,84 @@
+body {
+    background-color:#b2c99d;
+}
+
+h1{
+    text-align:center ;
+    color:black;
+
+}
+
+p{
+    text-align: justify;
+    color:rgb(41, 63, 63);
+}
+
+
+
+
+
+
+
+
+#bomb {
+    width: 400px;
+    height: 300px;
+    position:relative;
+    animation-name: explosion;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+    background-size:contain;
+    opacity: 0;
+    animation-timing-function:linear;
+    background-image: url(https://media0.giphy.com/media/ogV9ixEeSGuUE/200w.gif?cid=6c09b952nb8x7f94hbtagfzpuyio1154loicjmv8pfm76p8x&ep=v1_gifs_search&rid=200w.gif&ct=s);
+}
+
+
+@keyframes explosion {
+    0% {
+      opacity: 1;
+      left: 300px;
+      top: 300px;
+      background-image: url(https://media0.giphy.com/media/ogV9ixEeSGuUE/200w.gif?cid=6c09b952nb8x7f94hbtagfzpuyio1154loicjmv8pfm76p8x&ep=v1_gifs_search&rid=200w.gif&ct=s);
+    }
+    
+  
+   
+    
+  
+    50% {
+      top: 200px;
+      opacity: 1;
+      background-image: url(https://media0.giphy.com/media/ogV9ixEeSGuUE/200w.gif?cid=6c09b952nb8x7f94hbtagfzpuyio1154loicjmv8pfm76p8x&ep=v1_gifs_search&rid=200w.gif&ct=s);
+    }
+    
+    70% {
+      top: 100px;
+      opacity:100px;
+      background-image: url(https://media0.giphy.com/media/ogV9ixEeSGuUE/200w.gif?cid=6c09b952nb8x7f94hbtagfzpuyio1154loicjmv8pfm76p8x&ep=v1_gifs_search&rid=200w.gif&ct=s);
+    }
+    
+    100% {
+        top: 0px;
+        left: 0px;
+        background-image: url(https://media0.giphy.com/media/ogV9ixEeSGuUE/200w.gif?cid=6c09b952nb8x7f94hbtagfzpuyio1154loicjmv8pfm76p8x&ep=v1_gifs_search&rid=200w.gif&ct=s);
+    }
+    
+
+      }
+  
+  
+
+   
+
+
+
+
+
+
+       
+        
+
+    
+
