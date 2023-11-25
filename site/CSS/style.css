@@ -1,0 +1,56 @@
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 280%;
+    }
+
+h2 {
+    font-size: 120%;
+    font-family: 'Roboto', sans-serif;
+}
+  
+p{
+    font-size: 90%;
+    font-family: 'Roboto', sans-serif ;
+}
+
+.container {
+    background-color: white;
+   width: 100%;
+    padding-bottom: 50%;
+    margin-top: 100px;
+
+}
+
+
+
+.text {
+    background-color: white;
+    padding: 40px 6%;
+    margin:10% ;
+
+}
+
+
+.bg-zinc-500 {
+    width: 100%;
+}
+
+.bg-zinc-300 {
+    width: 800px;
+}
+
+.text3 {
+    background-color: white;
+    padding: 30px 6%;
+    margin:10% ;
+}
+
+.text4 {
+     padding: 225px;
+     text-align: center;
+
+}
+
+.bg-zinc-600 {
+    width: 100%;
+}
