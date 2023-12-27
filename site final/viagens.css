@@ -1,0 +1,63 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(132, 13, 218);
+    margin: 0;
+    padding: 0;
+  }
+
+  header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+h1 {
+    color: white;
+    margin: 0;
+    padding: 10px;
+    background-color: #000; 
+    border-radius: 10px; 
+    display: inline-block; 
+    font-weight: 300;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+nav {
+    background-color: #000;
+    padding: 10px;
+   
+}
+
+.viagem-details {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: left;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+
+.viagem-details h2 {
+    color: #333;
+}
+
+.viagem-details img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    display: block; 
+    margin: 0 auto;
+}
+
+.viagem-details p {
+    color: #555;
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.autor-nota {
+    color:black;
+    font-style: italic;
+}
